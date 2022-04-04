@@ -55,14 +55,14 @@ public class Triangle {
         if (a == b && b == c)
             return "Равносторонний треугольник";
         else
-            return "Разносторонний треугольник";
+            return "Неравносторонний треугольник";
     }
 
     public String isIsoscelesTriangle() {
         if (a == b || b == c || a == c)
             return "Равнобедренный треугольник";
         else
-            return "Разносторонний треугольник";
+            return "Неравносторонний треугольник";
     }
 
     public String triangleType() {
