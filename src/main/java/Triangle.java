@@ -62,7 +62,7 @@ public class Triangle {
         if (a == b || b == c || a == c)
             return "Равнобедренный треугольник";
         else
-            return "Неравносторонний треугольник";
+            return "Неравнобедренный треугольник";
     }
 
     public String triangleType() {
